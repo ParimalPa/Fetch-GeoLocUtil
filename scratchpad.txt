@@ -1,0 +1,11 @@
+Coordinate by name
+http://api.openweathermap.org/geo/1.0/direct?q={city name},{state code},{country code}&limit={limit}&appid={API key}
+
+Example 
+http://api.openweathermap.org/geo/1.0/direct?q=London,US&limit=1&appid=f897a99d971b5eef57be6fafa0d83239
+
+Coordinates by zip
+http://api.openweathermap.org/geo/1.0/zip?zip={zip code},{country code}&appid={API key}
+
+Example 
+http://api.openweathermap.org/geo/1.0/zip?zip=60056,US&appid=f897a99d971b5eef57be6fafa0d83239
